@@ -24,7 +24,7 @@ Data format: tab-separated records consisting of 9 fields:
 1. Verb prefix\*\* (if the paradigm is 15 or 18), or `NULL`.
 1. Comma-separated list of [sources](http://tezaurs.lv/#/avoti), or `NULL`, or `REF` in case of references.
 
-\* Used by [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/) as [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectional_paradigm}&stem1={infinitive_stem}&stem2={present_stem}&stem3={past_stem}](http://api.tezaurs.lv/v1/inflections/rakt?paradigm=15&stem1=rak&stem2=rok&stem3=rak) if for paradigms 15, 18 and [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectional_paradigm}](http://api.tezaurs.lv/v1/inflections/aita?paradigm=7) for other paradigms.
+\* Used by [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/) as [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectional_paradigm}&stem1={infinitive_stem}&stem2={present_stem}&stem3={past_stem}](http://api.tezaurs.lv/v1/inflections/rakt?paradigm=15&stem1=rak&stem2=rok&stem3=rak) for paradigms 15, 18 and [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectional_paradigm}](http://api.tezaurs.lv/v1/inflections/aita?paradigm=7) for other paradigms.
 
 \*\* To be used by [http://api.tezaurs.lv/v1/transcriptions/{word}](http://api.tezaurs.lv/v1/transcriptions/doma?encoding=ipa)
 
