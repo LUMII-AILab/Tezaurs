@@ -17,16 +17,19 @@ Data format: tab-separated records consisting of 9 fields:
 1. Headword.
 1. Homonym / homograph index (0\.\.N).
 1. [Universal POS tag](http://universaldependencies.github.io/docs/u/pos/), or `NULL`.
-1. Inflectional paradigm\* (0\.\.N), or `NULL`.
-1. Infinitive stem\* (if the paradigm is 15 or 18), or `NULL`.
-1. Comma-separated present stems\* (if the paradigm is 15 or 18), or `NULL`.
-1. Comma-separated past stems\* (if the paradigm is 15 or 18), or `NULL`.
-1. Verb prefix\*\* (if the paradigm is 15 or 18), or `NULL`.
+1. Inflectional paradigm<sup>1</sup> (0\.\.N), or `NULL`.
+1. Infinitive stem<sup>1</sup> (if the paradigm is 15 or 18), or `NULL`.
+1. Comma-separated present stems<sup>1</sup> (if the paradigm is 15 or 18), or `NULL`.
+1. Comma-separated past stems<sup>1</sup> (if the paradigm is 15 or 18), or `NULL`.
+1. Verb prefix<sup>2</sup> (if the paradigm is 15 or 18), or `NULL`.
 1. Comma-separated list of [sources](http://tezaurs.lv/#/avoti), or `NULL`, or `REF` in case of references.
 
-\* Used by [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/) as [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectional_paradigm}&stem1={infinitive_stem}&stem2={present_stem}&stem3={past_stem}](http://api.tezaurs.lv/v1/inflections/rakt?paradigm=15&stem1=rak&stem2=rok&stem3=rak) for paradigms 15, 18 and [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectional_paradigm}](http://api.tezaurs.lv/v1/inflections/aita?paradigm=7) for other paradigms.
+<sup>1</sup> Used by Tēzaurs' inflection service with the following parameters:
+* [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectionalParadigm}&stem1={infinitiveStem}&stem2={presentStem}&stem3={pastStem}](http://api.tezaurs.lv/v1/inflections/rakt?paradigm=15&stem1=rak&stem2=rok&stem3=rak) for the paradigms 15 and 18;
+* [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectionalParadigm}](http://api.tezaurs.lv/v1/inflections/aita?paradigm=7) for other paradigms;
+* or no parameters -- [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/v1/inflections/aita) -- if you feel lucky.
 
-\*\* To be used by [http://api.tezaurs.lv/v1/transcriptions/{word}](http://api.tezaurs.lv/v1/transcriptions/doma?encoding=ipa)
+<sup>2</sup> To be used by [http://api.tezaurs.lv/v1/transcriptions/{word}](http://api.tezaurs.lv/v1/transcriptions/doma?encoding=ipa)
 
 ### Publications
 
