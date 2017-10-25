@@ -37,8 +37,8 @@ Spektors, A., Auziņa, I., Darģis, R., Grūzītis, N., Paikens, P., Pretkalniņ
 
 ### Acknowledgements
 
-This work has been partially supported by Latvian State Research Programmes: Letonika (Project No. 3), NexIT (Project No. 1) and SOPHIS (Project No. 2).
+This work is partially supported by the Latvian State research programmes: Letonika (Project No. 3), NexIT (Project No. 1) and SOPHIS (Project No. 2). The latest development is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 (Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian).
 
 ### Licence
 
-Tēzaurs by [AiLab](http://ailab.lv/en/) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Tēzaurs by [AiLab](http://ailab.lv) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
