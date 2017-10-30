@@ -1,16 +1,16 @@
 # Tēzaurs
 
-Open data from http://tezaurs.lv -- an extensive dictionary and thesaurus of Latvian, comprising more than 290,000 lexical entries.
+Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 280,000 lexical entries.
 
 ### Available datasets
 
 1. Wordlists with metadata.
 2. Synonym sets (upcoming).
-3. Full machine-readable entries (upcoming).
+3. Glosses (upcoming).
 
 ##### Wordlists
 
-See `entries.txt` and `references.txt` under `wordlists`. Entries is a list of main headwords. References is a list of derivatives of the main headwords. Acronyms, abbreviations, prefixes, etc. are currently not included. They will be added later as a separate wordlist.
+See `entries.txt` and `references.txt` under `wordlists`. Entries is a list of main headwords. References is a list of derivatives of the main headwords. Named entities, acronyms, abbreviations, prefixes, etc. are not included.
 
 Data format: tab-separated records consisting of 9 fields:
 
@@ -27,7 +27,7 @@ Data format: tab-separated records consisting of 9 fields:
 <sup>1</sup> Used by Tēzaurs' inflection service with the following parameters:
 * [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectionalParadigm}&stem1={infinitiveStem}&stem2={presentStem}&stem3={pastStem}](http://api.tezaurs.lv/v1/inflections/rakt?paradigm=15&stem1=rak&stem2=rok&stem3=rak) for the paradigms 15 and 18;
 * [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectionalParadigm}](http://api.tezaurs.lv/v1/inflections/aita?paradigm=7) for other paradigms;
-* or no parameters -- [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/v1/inflections/aita) -- if you feel lucky.
+* or no parameters - [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/v1/inflections/aita) - if you feel lucky.
 
 <sup>2</sup> To be used by [http://api.tezaurs.lv/v1/transcriptions/{word}](http://api.tezaurs.lv/v1/transcriptions/doma?encoding=ipa)
 
