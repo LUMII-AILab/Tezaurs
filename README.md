@@ -33,7 +33,9 @@ Data format: tab-separated records consisting of 9 fields:
 
 ### Publications
 
-Spektors, A., Auziņa, I., Darģis, R., Grūzītis, N., Paikens, P., Pretkalniņa, L., Rituma, L. and Saulīte, B. [Tezaurs.lv: the largest open lexical database for Latvian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/1095_Paper.pdf). Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), 2016, pp. 2568-2571
+Spektors, A., Auziņa, I., Darģis, R., Grūzītis, N., Paikens, P., Pretkalniņa, L., Rituma, L., Saulīte, B. [Tezaurs.lv: the largest open lexical database for Latvian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/1095_Paper.pdf). Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), 2016
+
+Pretkalniņa, L., Paikens, P. [Extending Tēzaurs.lv Online Dictionary into a Morphological Lexicon](http://ebooks.iospress.nl/volumearticle/50312). Human Language Technologies - The Baltic Perspective. Frontiers in Artificial Intelligence and Applications, vol. 307, IOS Press, 2018
 
 ### Acknowledgements
 
