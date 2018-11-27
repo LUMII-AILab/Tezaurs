@@ -8,6 +8,10 @@ Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latv
 2. Synonym sets (upcoming).
 3. Glosses (upcoming).
 
+### Additional datasets
+
+1. Multi-word expressions (extraced from a balanced 10M text corpus of Latvian).
+
 ##### Wordlists
 
 See `entries.txt` and `references.txt` under `wordlists`. Entries is a list of main headwords. References is a list of derivatives of the main headwords. Named entities, acronyms, abbreviations, prefixes, etc. are not included.
