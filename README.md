@@ -5,12 +5,13 @@ Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latv
 ### Available datasets
 
 1. Wordlists with metadata.
-2. Synonym sets (upcoming).
-3. Glosses (upcoming).
+1. Synonym sets (upcoming).
+1. Glosses (upcoming).
 
 ### Additional datasets
 
 1. Multi-word expressions (extraced from a balanced 10M text corpus of Latvian).
+1. Mapping of Tēzaurs entries to core WordNet synsets (experimental).
 
 ##### Wordlists
 
@@ -28,7 +29,7 @@ Data format: tab-separated records consisting of 9 fields:
 1. Verb prefix<sup>2</sup> (if the paradigm is 15 or 18), or `NULL`.
 1. Comma-separated list of [sources](http://tezaurs.lv/#/avoti), or `NULL`, or `REF` in case of references.
 
-<sup>1</sup> Used by Tēzaurs' inflection service with the following parameters:
+<sup>1</sup> Used by Tēzaurs inflection service with the following parameters:
 * [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectionalParadigm}&stem1={infinitiveStem}&stem2={presentStem}&stem3={pastStem}](http://api.tezaurs.lv/v1/inflections/rakt?paradigm=15&stem1=rak&stem2=rok&stem3=rak) for the paradigms 15 and 18;
 * [http://api.tezaurs.lv/v1/inflections/{word}?paradigm={inflectionalParadigm}](http://api.tezaurs.lv/v1/inflections/aita?paradigm=7) for other paradigms;
 * or no parameters - [http://api.tezaurs.lv/v1/inflections/{word}](http://api.tezaurs.lv/v1/inflections/aita) - if you feel lucky.
