@@ -5,15 +5,17 @@ Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latv
 ### Available datasets
 
 1. Wordlists with metadata.
-1. Synonym sets (upcoming).
+1. Synonymic references.
 1. Glosses (upcoming).
 
 ### Additional datasets
 
-1. Multi-word expressions (extraced from a balanced 10M text corpus of Latvian).
-1. Mapping of Tēzaurs entries to core WordNet synsets (experimental).
+1. Multi-word expressions (extraced from a balanced 10M text corpus of Latvian) - under `mwe`.
+1. Mapping of Tēzaurs entries to core WordNet synsets (experimental) - under `wordnet`.
 
-##### Wordlists
+## Wordlists
+
+### Morphology and other metadata
 
 See `entries.txt` and `references.txt` under `wordlists`. Entries is a list of main headwords. References is a list of derivatives of the main headwords. Named entities, acronyms, abbreviations, prefixes, etc. are not included.
 
@@ -36,16 +38,25 @@ Data format: tab-separated records consisting of 9 fields:
 
 <sup>2</sup> To be used by [http://api.tezaurs.lv/v1/transcriptions/{word}](http://api.tezaurs.lv/v1/transcriptions/doma?encoding=ipa)
 
-### Publications
+### Synonyms
+
+See `synonyms.txt` under `wordlists`.
+
+Data format: tab-separated records consisting of 2 fields:
+
+1. Headword.
+1. Comma-separated synonymic references.
+
+## Publications
 
 Spektors, A., Auziņa, I., Darģis, R., Grūzītis, N., Paikens, P., Pretkalniņa, L., Rituma, L., Saulīte, B. [Tezaurs.lv: the largest open lexical database for Latvian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/1095_Paper.pdf). Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), 2016
 
 Pretkalniņa, L., Paikens, P. [Extending Tēzaurs.lv Online Dictionary into a Morphological Lexicon](http://ebooks.iospress.nl/volumearticle/50312). Human Language Technologies - The Baltic Perspective. Frontiers in Artificial Intelligence and Applications, vol. 307, IOS Press, 2018
 
-### Acknowledgements
+## Acknowledgements
 
 This work is partially supported by the Latvian State research programmes: Letonika (Project No. 3), NexIT (Project No. 1) and SOPHIS (Project No. 2). The latest development is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)).
 
-### Licence
+## Licence
 
 Tēzaurs by [AiLab](http://ailab.lv) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
