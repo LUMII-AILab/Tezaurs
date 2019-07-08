@@ -1,6 +1,6 @@
 # Tēzaurs
 
-Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 300,000 lexical entries.
+Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 310,000 lexical entries.
 
 ### Available datasets
 
@@ -55,7 +55,7 @@ Pretkalniņa, L., Paikens, P. [Extending Tēzaurs.lv Online Dictionary into a Mo
 
 ## Acknowledgements
 
-This work is partially supported by the Latvian State research programmes: Letonika (Project No. 3), NexIT (Project No. 1) and SOPHIS (Project No. 2). The latest development is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)).
+This work is partially supported by the Latvian State research programmes: Letonika (Project No. 3), NexIT (Project No. 1) and SOPHIS (Project No. 2). The latest development is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)) and by the Latvian State research programme Latvian Language (VPP-IZM-2018/2-0002).
 
 ## Licence
 
