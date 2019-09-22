@@ -1,6 +1,6 @@
 # Tēzaurs
 
-Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 310,000 lexical entries.
+Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 315,000 lexical entries.
 
 ### Available datasets
 
@@ -52,6 +52,8 @@ Data format: tab-separated records consisting of 2 fields:
 Spektors, A., Auziņa, I., Darģis, R., Grūzītis, N., Paikens, P., Pretkalniņa, L., Rituma, L., Saulīte, B. [Tezaurs.lv: the largest open lexical database for Latvian](http://www.lrec-conf.org/proceedings/lrec2016/pdf/1095_Paper.pdf). Proceedings of the 10th International Conference on Language Resources and Evaluation (LREC), 2016
 
 Pretkalniņa, L., Paikens, P. [Extending Tēzaurs.lv Online Dictionary into a Morphological Lexicon](http://ebooks.iospress.nl/volumearticle/50312). Human Language Technologies - The Baltic Perspective. Frontiers in Artificial Intelligence and Applications, vol. 307, IOS Press, 2018
+
+Paikens, P., Grūzītis, N., Rituma, L., Nešpore, G., Lipskis, V., Pretkalniņa, L., Spektors, A. [Enriching an Explanatory Dictionary with FrameNet and PropBank Corpus Examples]. Proceedings of the 6th Biennial Conference on Electronic Lexicography (eLex), 2019
 
 ## Acknowledgements
 
