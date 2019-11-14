@@ -4,9 +4,9 @@ Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latv
 
 ### Available datasets
 
-1. Wordlists with metadata.
-1. Synonymic references.
-1. Glosses (upcoming).
+1. Wordlists with metadata (under `wordlists`).
+1. Synonymic references (under `wordlists`).
+1. Glosses (under `entries`).
 
 ### Additional datasets
 
