@@ -57,8 +57,9 @@ Paikens, P., Grūzītis, N., Rituma, L., Nešpore, G., Lipskis, V., Pretkalniņa
 
 ## Related work
 
-- [Full Stack of Latvian Language Resources for NLU and NLG](https://github.com/LUMII-AILab/FullStack)
+- [Tēzaurs API](https://api.tezaurs.lv)
 - [NLP-PIPE: Latvian NLP Tool Pipeline](https://github.com/LUMII-AILab/nlp-pipe)
+- [Full Stack of Latvian Language Resources for NLU and NLG](https://github.com/LUMII-AILab/FullStack)
 
 ## Acknowledgements
 
@@ -66,7 +67,7 @@ This work is partially supported by the Latvian State research programmes: Leton
 
 ## Licence
 
-Tēzaurs by [AiLab](http://ailab.lv) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Tēzaurs data sets by [AiLab](http://ailab.lv) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Contacts
 
