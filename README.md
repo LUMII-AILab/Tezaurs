@@ -69,6 +69,8 @@ This work is partially supported by the Latvian State research programmes: Leton
 
 Tēzaurs data sets by [AiLab](http://ailab.lv) are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
+Please, cite the relevant [publications](https://github.com/LUMII-AILab/Tezaurs#publications) if you use Tēzaurs data or API in your research. Please, [let us know](mailto:tezaurs@ailab.lv) if you use Tēzaurs data or API in your products or services.
+
 ## Contacts
 
 Project coordinator: [Andrejs Spektors](http://ailab.mii.lu.lv/aspekt/cv.htm), `tezaurs@ailab.lv`
