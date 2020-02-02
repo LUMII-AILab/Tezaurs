@@ -1,12 +1,12 @@
 # Tēzaurs
 
-Open data from http://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 315,000 lexical entries.
+Open data from https://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 315,000 lexical entries.
 
 ### Available datasets
 
 1. Wordlists with metadata (under `wordlists`).
 1. Synonymic references (under `wordlists`).
-1. Glosses (under `entries`).
+1. Glosses, etc. (under `entries`).
 
 ### Additional datasets
 
@@ -55,6 +55,11 @@ Pretkalniņa, L., Paikens, P. [Extending Tēzaurs.lv Online Dictionary into a Mo
 
 Paikens, P., Grūzītis, N., Rituma, L., Nešpore, G., Lipskis, V., Pretkalniņa, L., Spektors, A. [Enriching an Explanatory Dictionary with FrameNet and PropBank Corpus Examples](https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_52.pdf). Proceedings of the 6th Biennial Conference on Electronic Lexicography (eLex), 2019
 
+## Related work
+
+- [Full Stack of Latvian Language Resources for NLU and NLG](https://github.com/LUMII-AILab/FullStack)
+- [NLP-PIPE: Latvian NLP Tool Pipeline](https://github.com/LUMII-AILab/nlp-pipe)
+
 ## Acknowledgements
 
 This work is partially supported by the Latvian State research programmes: Letonika (Project No. 3), NexIT (Project No. 1) and SOPHIS (Project No. 2). The latest development is supported by European Regional Development Fund under the grant agreement No. 1.1.1.1/16/A/219 ([Full Stack of Language Resources for Natural Language Understanding and Generation in Latvian](https://github.com/LUMII-AILab/FullStack)) and by the Latvian State research programme Latvian Language (VPP-IZM-2018/2-0002).
@@ -62,3 +67,9 @@ This work is partially supported by the Latvian State research programmes: Leton
 ## Licence
 
 Tēzaurs by [AiLab](http://ailab.lv) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+## Contacts
+
+Project coordinator: [Andrejs Spektors](http://ailab.mii.lu.lv/aspekt/cv.htm), `aspekt@ailab.lv`
+
+Team members: Ilze Auziņa, Guntis Bārzdiņš, Roberts Darģis, Mikus Grasmanis, Normunds Grūzītis, Gunta Nešpore-Bērzkalne, Pēteris Paikens, Ilmārs Poikāns, Lauma Pretkalniņa, Laura Rituma, Baiba Valkovska (Saulīte), Artūrs Znotiņš
