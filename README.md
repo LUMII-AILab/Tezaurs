@@ -70,6 +70,6 @@ Tēzaurs by [AiLab](http://ailab.lv) is licensed under a [Creative Commons Attri
 
 ## Contacts
 
-Project coordinator: [Andrejs Spektors](http://ailab.mii.lu.lv/aspekt/cv.htm), `aspekt@ailab.lv`
+Project coordinator: [Andrejs Spektors](http://ailab.mii.lu.lv/aspekt/cv.htm), `tezaurs@ailab.lv`
 
 Team members: Ilze Auziņa, Guntis Bārzdiņš, Roberts Darģis, Mikus Grasmanis, Normunds Grūzītis, Gunta Nešpore-Bērzkalne, Pēteris Paikens, Ilmārs Poikāns, Lauma Pretkalniņa, Laura Rituma, Baiba Valkovska (Saulīte), Artūrs Znotiņš
