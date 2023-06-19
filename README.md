@@ -2,6 +2,8 @@
 
 Open data from https://tezaurs.lv - an extensive dictionary and thesaurus of Latvian, comprising more than 315,000 lexical entries.
 
+# This is unmaintained - the latest data releases are on CLARIN repsitory at https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/66
+
 ### Available datasets
 
 1. Wordlists with metadata (under `wordlists`).
